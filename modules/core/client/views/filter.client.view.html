@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body ng-app="app" style="background-color:#7B7D7D">
+ 
+     <!-- ******************* Drop down feature with deatails info ******************** -->
+       <div class="vertical-center" ng-controller="HomeController" ng-init="find()">
+            <h3 nowrap ng-repeat="eweek in studies">        
+        From MLab: {{eweek.name}}
+
+      </h3>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+</body>
+</html>
